@@ -1,0 +1,22 @@
+{
+  "name": "@acrois/bug-free-telegram",
+  "version": "1.0.0",
+  "description": "Easy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acrois/bug-free-telegram.git"
+  },
+  "author": "",
+  "license": "Proprietary",
+  "bugs": {
+    "url": "https://github.com/acrois/bug-free-telegram/issues"
+  },
+  "homepage": "https://github.com/acrois/bug-free-telegram#readme"
+}
