@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  website:
+    build:
+      context: .
+    image: bug-free-telegram:latest
+    restart: on-failure
+    ports:
+      - "4000:80"
