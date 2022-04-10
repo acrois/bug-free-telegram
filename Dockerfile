@@ -1,10 +1,10 @@
 # Create runtime environment
-FROM nginx:alpine AS runtime
+FROM nginx:1.20-alpine AS runtime
 
 # Configure, as necessary
 
 # Create build environment
-FROM ruby:alpine3.10 AS build
+FROM ruby:alpine3.11 AS build
 
 # Configure workdir
 WORKDIR /var/app
